@@ -2,7 +2,7 @@ package jb02.part04;
 
 public class Test {
 	public static void main(String[] args) {
-		String[][] text = new String[10][10];
+		String[][] text = new String[9][9];
 
 		System.out.println("==================");
 		for (int i = 1; i < text.length + 1; i++) {
