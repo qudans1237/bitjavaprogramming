@@ -1,6 +1,7 @@
-package jb02.part04;
+package test;
 
-public class Test {
+public class Example4 {
+
 	public static void main(String[] args) {
 		String[][] text = new String[9][9];
 
