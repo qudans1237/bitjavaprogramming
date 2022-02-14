@@ -1,21 +1,21 @@
-package test;
-
 import java.util.Scanner;
-
 public class Prob01 {
-	public static void main(String[] args) {
-		Scanner scanner = new Scanner(System.in);
+    public static void main(String[] args) {
+        Scanner keyboard = new Scanner(System.in);
+        System.out.println("1보다 크고 10보다 작은 정수를 입력하세요: ");
+        int inputInt = keyboard.nextInt();
 
-		System.out.println("2~9를 입력하세요");
-		int a = scanner.nextInt();
-		if (a > 1 && a < 10) {
-			System.out.println(a + "단을 출력합니다.");
-			for (int i = 1; i < 10; i++) {
-				System.out.println(i + "x" + a + "=" + i * a);
-			}
-			System.out.println("\n==========================\n");
-		}else {
-			System.out.println("잘못된 숫자가 입력되었습니다.\n2~9사이 숫자를 입력하세요");
-		}
-	}
+        //validation check first
+        if(0 < inputInt && inputInt < 10){
+            int m = 1;
+            
+            while(m < 10){
+				int result = inputInt * m;
+                System.out.println(inputInt + " * " + m + " = " + result);
+                m++;
+            }
+        }else{
+            System.out.println("잘못된 숫자가 입력되었습니다.");
+        }
+    }
 }
