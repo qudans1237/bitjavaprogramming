@@ -24,7 +24,7 @@ public class Developer1 {
 	}
 	
 	public void instruct(int lectureCount) {
-		System.out.println(lectureCount+": 개 강의를 통한 수입증가");
+		System.out.println(lectureCount+" 개 강의를 통한 수입증가");
 		avgIncome += lectureCount;
 	}
 }//end of class
