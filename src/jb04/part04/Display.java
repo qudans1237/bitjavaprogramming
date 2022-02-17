@@ -5,6 +5,9 @@ class BusCharge {
 
 	public BusCharge() {
 	}
+	public BusCharge(String str) {
+		section = str;
+	}
 
 	public void information() {
 		System.out.println("버스요금안내");
@@ -17,7 +20,7 @@ class BusCharge {
 
 class Student extends BusCharge {
 	public Student() {
-//		super("학생");
+		super("학생");
 	}
 
 	public void charge() {
@@ -27,7 +30,7 @@ class Student extends BusCharge {
 
 class Adult extends BusCharge {
 	public Adult() {
-//		super("일반인");
+		super("일반인");
 	}
 
 	public void charge() {
@@ -37,7 +40,7 @@ class Adult extends BusCharge {
 
 class Old extends BusCharge {
 	public Old() {
-//		super("어르신");
+		super("어르신");
 	}
 
 	public void charge() {

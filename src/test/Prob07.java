@@ -11,7 +11,7 @@ public class Prob07 {
 		System.out.print("0보다 큰 홀수를 입력해주세요.");
 		line = input.nextInt();
 		if (line > 0 || line % 2 != 0) {
-			for (int i = 0, add = line - 1; i < line; i++, add--) {
+			for (int i = 0, add = line%2-1; i < line; i++, add--) {
 				for (int j = 0; j < i; j++) {
 					System.out.print(" ");
 				}
@@ -23,5 +23,5 @@ public class Prob07 {
 		} else {
 			System.out.println("0보다 큰 홀수만 입력 가능합니다.");
 		}
-	}//end of main
-}//end of class 
+	}
+}

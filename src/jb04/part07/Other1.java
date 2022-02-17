@@ -13,3 +13,4 @@ public class Other1 {
 		System.out.println(unknown.getPassword(0));
 	}
 }
+ 

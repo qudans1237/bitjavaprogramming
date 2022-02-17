@@ -38,9 +38,9 @@ public class Manager extends Employee {
 	}
 	
 	public static void main(String args[]) {
-		Manager m1 = new Manager("ȫ�浿");
-		Manager m2 = new Manager("ȫ�浿","EJB");
-		Manager m3 = new Manager("ȫ�浿","EJB",25);
+		//Manager m1 = new Manager("ȫ�浿");
+		//Manager m2 = new Manager("ȫ�浿","EJB");
+		//Manager m3 = new Manager("ȫ�浿","EJB",25);
 		Manager m4 = new Manager("ȫ�浿","EJB",25,300);
 		
 		System.out.println("\n");

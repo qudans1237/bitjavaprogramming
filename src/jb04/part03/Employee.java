@@ -2,8 +2,10 @@ package jb04.part03;
 
 public class Employee {
 	
-	String part,name;
-	int age,baseSalary;
+	String part;
+	String name;
+	int age;
+	int baseSalary;
 	
 	public Employee() {
 		System.out.println("Emp¿« default Constructor");
@@ -27,5 +29,7 @@ public class Employee {
 		System.out.println("Emp¿« salay() method");
 		baseSalary = 100;
 		return baseSalary;
+		
 	}
 }// end of class
+

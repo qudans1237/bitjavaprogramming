@@ -14,15 +14,15 @@ class HighSchool extends JuniorHighSchool {
 	public HighSchool() {
 
 	}
-
+//Constructor O/L
 	public HighSchool(String str) {
 		name = str;
 	}
 
 	public void schoolName() {
 		System.out.println("중학교 이름: " + super.name);
-		System.out.println("고등학교 이름: " + this.name);
-		System.out.println("고등학교 이름: " + name);
+		System.out.println("고등학교 이름: " + this.name);// this. == defalut 생략하면
+		System.out.println("고등학교 이름: " + name); // 이거임
 	}
 }
 

@@ -35,9 +35,14 @@ public class Manager extends Employee {
 //		Manager m1 = new Manager("홍길동");
 //		Manager m2 = new Manager("홍길동","EJB");
 //		Manager m3 = new Manager("홍길동","EJB",25);
-		Manager m4 = new Manager("홍길동","EJB",25,300);
+		Manager m4 = new Manager("홍길동","EJB",25,200);
+		//("Emp의 name을 받는 Constructor");
+		//("Emp의 name,part을 받는 Constructor");
+		//("Manager의 name,part,age을 받는 Constructor")
+		//("Manager의 name,part,age,salary을 받는 Constructor")
 		System.out.println("\n");
 		System.out.println("overriding된 salary호출:"+m4.salary());
 		m4.callSalary();
+
 	}
 }
