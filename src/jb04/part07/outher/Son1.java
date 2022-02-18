@@ -1,4 +1,6 @@
-package jb04.part07;
+package jb04.part07.outher;
+
+import jb04.part07.Father;
 
 public class Son1 extends jb04.part07.Father{
 	

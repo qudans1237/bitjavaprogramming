@@ -88,6 +88,8 @@
 	-has a관계 a->b 계속 가지고 다니는 관계
 	-예를 들어 사람을 객체화할 때 팔과 다리라는 객체를 갖고있는 것
 	
+	
+	
 9. dependency(의존성)
 	-한번 사용하고 버리는 관계 A------->b
 	-필요할때 인스턴스를 생성하여 사용 
@@ -137,6 +139,33 @@
 class 안에있는 변수 전역변수
 {}안에 있는 변수 지역변수
 	
+17.public, (default), protected, private
+
+public 공용화장실	-class
+접근제어자가 public으로 설정되었다면 public 접근제어자가 붙은 변수, 메소드는 어떤 클래스에서라도 접근이 가능하다.
+
+default			-class
+접근 제어자를 별도로 설정하지 않는다면 접근 제어자가 없는 변수, 메소드는 default 접근 제어자가 되어 해당 패키지 내에서만 접근이 가능하다.
+
+private 안방화장실 -field,method
+접근제어자가 private으로 설정되었다면 private 이 붙은 변수, 메소드는 해당 클래스에서만 접근이 가능하다.
+
+protected		-field,method
+접근제어자가 protected로 설정되었다면 protected가 붙은 변수, 메소드는 동일 패키지의 클래스 또는 해당 클래스를 상속받은 다른 패키지의 클래스에서만 접근이 가능하다.
+
+private-> default-> protected -> public
+
+18. has a association
+Association: 모든 오브젝트가 각자의 라이프사이클을 가지고 있고,
+ 어떤 오브젝트가 다른 오브젝트를 소유하지는 않은 경우입니다.
+
+예를 들면, 선생님과 학생의 경우를 들 수 있습니다.
+ 많은 학생이 한 선생님에게 Association를 가질 수 있고,
+ 한 학생이 여러 선생님에게 Association를 가질 수도 있습니다.
+ 하지만 이 관계에는 누가 누구를 소유하거나 하지는 않습니다.
+ 각자가 생성/소멸을 독립적으로 합니다.
+
+20. static, final, abstract (특별한기능)
 	
 	
 	

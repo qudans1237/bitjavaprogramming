@@ -12,7 +12,7 @@ class TopSecret01 {
 	}
 }
 
-public class ModifierTest01 {
+public class ModiferTest01 {
 	public static void main(String[] args) {
 		TopSecret01 topSecret = new TopSecret01();
 		System.out.println(topSecret.secretNo);
