@@ -8,7 +8,7 @@ class Super{
 
 class Sub extends Super{
 	public void a() {
-		System.out.println("overridingµÈ Sub:a()");
+		System.out.println("overridingï¿½ï¿½ Sub:a()");
 	}
 	public void b() {
 		System.out.println("sub:b()");
@@ -17,21 +17,21 @@ class Sub extends Super{
 
 public class CastingComplet {
 	public static void main(String[] args) {
-		System.out.println("\n¿©±â´Â Super s1 = new Super()ºÎºÐ");
+		System.out.println("\nï¿½ï¿½ï¿½ï¿½ï¿½ Super s1 = new Super()ï¿½Îºï¿½");
 		Super s1 = new Super();
 		s1.a();
 		
-		System.out.println("\n¿©±â´Â Sub s2 = new Sub()ºÎºÐ");
+		System.out.println("\nï¿½ï¿½ï¿½ï¿½ï¿½ Sub s2 = new Sub()ï¿½Îºï¿½");
 		Super s2 = new Sub();
 		s2.a();
 //		s2.b();
-		
-		System.out.println("\n¿©±â´Â Super s3 = new Sub()ºÎºÐ");
+//		s2.b();
+		System.out.println("\nï¿½ï¿½ï¿½ï¿½ï¿½ Super s3 = new Sub()ï¿½Îºï¿½");
 		Super s3 =new Sub();
 		s3.a();
-		
-		System.out.println("\n s3´Â b()¿¡ Á¢±Ù ºÒ°¡ÇÏ´Ù.");
-		System.out.println("casting ¿¬»êÀÚ¸¦ ÀÌ¿ë Sub sub = (Sub)s3 ¸í½ÃÀû Çüº¯È¯");
+//		s3.b();
+		System.out.println("\n s3ï¿½ï¿½ b()ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ò°ï¿½ï¿½Ï´ï¿½.");
+		System.out.println("casting ï¿½ï¿½ï¿½ï¿½ï¿½Ú¸ï¿½ ï¿½Ì¿ï¿½ Sub sub = (Sub)s3 ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½È¯");
 		Sub sub = (Sub)s3;
 		sub.b();
 	}
