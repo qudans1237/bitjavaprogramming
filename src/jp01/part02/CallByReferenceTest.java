@@ -12,6 +12,7 @@ public class CallByReferenceTest {
 	}
 	
 	public static void main(String[] args) {
+		
 		CallByReferenceTest call = new CallByReferenceTest();
 		
 		call.referenceChange(call);
