@@ -19,20 +19,20 @@ public class  StringTest01{
 		String s4 = new String("홍길동");
 		
 		// == 비교
-		System.out.println("s1==s2 : "+(s1==s2));
-		System.out.println("s1==s3 : "+(s1==s3));
-		System.out.println("s1==s4 : "+(s1==s4));
-		System.out.println("s1==s2 : "+(s2==s3));
-		System.out.println("s1==s2 : "+(s2==s4));
-		System.out.println("s3==s4 : "+(s3==s4));
+		System.out.println("s1==s2 : "+(s1==s2)); //false
+		System.out.println("s1==s3 : "+(s1==s3)); // f
+		System.out.println("s1==s4 : "+(s1==s4)); // f
+		System.out.println("s1==s2 : "+(s2==s3)); // f
+		System.out.println("s1==s2 : "+(s2==s4)); // f
+		System.out.println("s3==s4 : "+(s3==s4)); // f
 
 		// equals() 비교
-		System.out.println("s1.equals(s2) : "+s1.equals(s2));
-		System.out.println("s1.equals(s3) : "+s1.equals(s3));
-		System.out.println("s1.equals(s4) : "+s1.equals(s4));
-		System.out.println("s1.equals(s4) : "+s2.equals(s3));
-		System.out.println("s1.equals(s4) : "+s2.equals(s4));
-		System.out.println("s3.equals(s4) : "+s3.equals(s4));
+		System.out.println("s1.equals(s2) : "+s1.equals(s2)); // t
+		System.out.println("s1.equals(s3) : "+s1.equals(s3)); // t
+		System.out.println("s1.equals(s4) : "+s1.equals(s4)); // t
+		System.out.println("s1.equals(s4) : "+s2.equals(s3)); // t
+		System.out.println("s1.equals(s4) : "+s2.equals(s4)); // t
+		System.out.println("s3.equals(s4) : "+s3.equals(s4)); // t 
 		
 	}//end of main
 

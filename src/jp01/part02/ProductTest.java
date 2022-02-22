@@ -19,24 +19,24 @@ public class ProductTest{
 	  public static void main(String[] args){
 
 			Product p01 = new Product();
-			System.out.println("p01.product : "+p01.product);
+			System.out.println("p01.product : "+p01.product); // 콜라
 
 			Product p02 = new Product();
-			System.out.println("p02.product : "+p02.product);
+			System.out.println("p02.product : "+p02.product); // 콜라
 
 			Product p03 = p01;
-			System.out.println("p01.product : "+p01.product);
-			System.out.println("p03.product : "+p03.product);
+			System.out.println("p01.product : "+p01.product); // 콜라
+			System.out.println("p03.product : "+p03.product); // 콜라
 			
 			p03.product="사이다";
-			System.out.println("p01.product : "+p01.product);
-			System.out.println("p02.product : "+p02.product);
-			System.out.println("p03.product : "+p03.product);
+			System.out.println("p01.product : "+p01.product); // 사이다
+			System.out.println("p02.product : "+p02.product); // 콜라
+			System.out.println("p03.product : "+p03.product); // 사이다
 
 			p02 = p03;
-			System.out.println("p01.product : "+p01.product);
-			System.out.println("p02.product : "+p02.product);
-			System.out.println("p03.product : "+p03.product);
+			System.out.println("p01.product : "+p01.product); // 사이다
+			System.out.println("p02.product : "+p02.product); // 사이다
+			System.out.println("p03.product : "+p03.product); // 사이다
 		}//end of main
 
 }//end of class
