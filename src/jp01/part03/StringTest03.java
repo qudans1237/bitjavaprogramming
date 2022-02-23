@@ -11,7 +11,7 @@ public class StringTest03 {
 		System.out.println(s1);
 		
 		String s2 = s1.substring(7);
-		System.out.print(s2);
+		System.out.println(s2);
 		
 		int a = name.indexOf("ABC");
 		System.out.println(a);

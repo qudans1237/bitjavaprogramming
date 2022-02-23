@@ -16,15 +16,15 @@ public class Adder {
 		int result = 0;
 		String strNum = "";
 		for (int i = 0; i<expr.length();i++) {
-			char c =  ;
-			if(c=="+") {
+			char c = expr.charAt(i) ;
+			if(c=='+') {
 				result += Integer.parseInt(strNum);
-				strNum = ;
+				strNum = "";
 			}else {
-				strNum += ;
+				strNum += c;
 			}
 			
 		}
-		return (result+);
+		return (result+Integer.parseInt(strNum));
 	}
 }

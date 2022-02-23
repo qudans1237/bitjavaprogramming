@@ -16,4 +16,18 @@ public class Rectangular extends Shape {
 	public void calculationArea() {
 		area = width * hight;
 	}
+	public double getWidth() {
+		return width;
+	}
+	
+	public void setWidth(double width) {
+		this.width = width;
+	}
+	
+	public double getHight() {
+		return hight;
+	}
+	public void setHight(double hight) {
+		this.hight = hight;
+	}
 }
