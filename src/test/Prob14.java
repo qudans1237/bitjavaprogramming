@@ -17,7 +17,7 @@ public class Prob14 {
 			}
 		}
 	}
-	
+
 	public static void main(String[] args) {
 		System.out.println("주어진 숫자까지의 구구단을 찍습니다.");
 		System.out.println("---------- Sample 1 -----------");

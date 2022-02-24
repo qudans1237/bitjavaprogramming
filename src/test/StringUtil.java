@@ -18,7 +18,7 @@ public class StringUtil {
 					sum++;
 				}
 			}
-
+			
 			if (sum >= max) {
 				max = sum;
 				index = i;

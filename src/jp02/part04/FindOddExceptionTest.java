@@ -34,6 +34,7 @@ public class FindOddExceptionTest {
 			met.test(11);
 		}catch(FindOddException e) {
 			System.out.println("\n e :"+e);
+	
 		}
 	}
 }

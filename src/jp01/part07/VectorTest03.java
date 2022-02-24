@@ -26,7 +26,7 @@ public class VectorTest03 {
 		}
 
 		System.out.println("\n ==> API확인");
-		vector.insertElementAt("4.길", 1);
+		vector.insertElementAt("4.길",0 );
 		for (int i = 0; i < vector.size(); i++) {
 			System.out.print(vector.elementAt(i));
 		}
