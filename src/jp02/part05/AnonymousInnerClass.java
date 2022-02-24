@@ -2,9 +2,9 @@ package jp02.part05;
 
 class A {
 	public void abc(String message) {
-		System.out.println("::" + this.getClass().getName() + "start");
+		System.out.println("::" + this.getClass().getName() + " start");
 		System.out.println("::abc()" + message);
-		System.out.println("::" + this.getClass().getName() + "end");
+		System.out.println("::" + this.getClass().getName() + " end");
 	}
 }
 
@@ -24,22 +24,24 @@ public class AnonymousInnerClass {
 		 * System.out.println("::Hi" + message); } } new B().abc("Hello"); new
 		 * B().def("Hello");
 		 */
+		
 		System.out.println("3.============");
 		new A() {
 			public void def(String message) {
-				System.out.println("::" + this.getClass().getName() + "start");
+				System.out.println("::" + this.getClass().getName() + " start");
 				System.out.println(":: def()" + message);
-				System.out.println("::" + this.getClass().getName() + "end");
+				System.out.println("::" + this.getClass().getName() + " end");
 			}
 		}.abc("Hello");
 		System.out.println("4.============");
 		new A() {
 			public void def(String message) {
-				System.out.println("::" + this.getClass().getName() + "start");
+				System.out.println("::" + this.getClass().getName() + " start");
 				System.out.println(":: def()" + message);
-				System.out.println("::" + this.getClass().getName() + "end");
+				System.out.println("::" + this.getClass().getName() + " end");
 			}
 		}.def("Hello");
+		
 	
 	}
 }

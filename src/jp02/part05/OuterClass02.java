@@ -37,3 +37,4 @@ public class OuterClass02 {
 		new OuterClass02().outerMethod();
 	}
 }
+//OuterClass02$1InnerLocalClass.class $표시 뒤에 숫자로 표시 local

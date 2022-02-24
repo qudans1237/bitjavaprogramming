@@ -2,8 +2,17 @@ package test;
 
 public class Prob16 {
 	public String leftPad(String str, int size, char padChar) {
+		int length = str.length();
 		
-		return null;
+		if(length>= size) {
+			return str;
+		}
+		String result="";
+		for(int i =0; i<size-length;i++) {
+			result+=padChar;
+		}
+		result +=str;
+		return result;
 	}
 	
 	

@@ -1,20 +1,7 @@
 package test;
 
 public class Prob15 {
-	public class Util{
-		public int findPrimeCount(int limit) {
-			
-			return 0;
-		}
 		
-		public int[] findPrimeReturnArray(int limit) {
-			return null;
-		}
-		
-		
-	}
-	
-	
 	public static void main(String[] args) {
 		
 		int limit = 67;
@@ -29,7 +16,8 @@ public class Prob15 {
 		int[] primeArray = util.findPrimeReturnArray(limit);
 		
 		for(int i =0 ; i<primeArray.length;i++) {
-			System.out.print(primeArray[i]+((primeArray.length-1)!=i?" ":""));
+			System.out.print(primeArray[i]+((primeArray.length-1)!=i?",":""));
+			//((primeArray.length-1)!=i?",":"")) if문으로 처리해봅시다.
 		}
 	}
 }
